@@ -7,7 +7,7 @@ const Todo = ({state, dispatch}) => {
 
     return(
         <div>
-           {/* <TodoForm /> */}
+           
            <h4>{state.todos.map(todo => (
                <Task key = {todo.id} todo = {todo} dispatch = {dispatch} />
            ))}</h4>
